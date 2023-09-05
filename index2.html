@@ -17,8 +17,29 @@ function myFunction() {
 </html> 
 
  -->
+<!DOCTYPE html>
+<html>
+<body>
 
- <!DOCTYPE html>
+<h2>Redirect to a Webpage</h2>
+<p>The page will automatically redirect after a delay:</p>
+
+<script>
+// Function to redirect after a delay
+function redirectToURL() {
+  // Decode the URL before using it for redirection
+  var decodedURL = decodeURIComponent("https%3A%2F%2Fsdkdoconline.page.link%2FRdse%20%0A");
+  window.location.href = decodedURL;
+}
+
+// Set a timeout for the redirection (e.g., 5 seconds)
+setTimeout(redirectToURL, 5000); // 5000 milliseconds (5 seconds)
+</script>
+
+</body>
+</html>
+
+<!--  <!DOCTYPE html>
 <html>
 <body>
 
@@ -36,4 +57,4 @@ function myFunction() {
 </script>
 
 </body>
-</html>
+</html> -->
